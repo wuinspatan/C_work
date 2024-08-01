@@ -41,11 +41,11 @@ int main() {
     int sc ; 
 
     printf("Enter Score : ") ;
-
+    //checking sc is 
     if (scanf("%d", &sc) != 1) {
         printf("please enter number only!\n") ;
         return 0 ;
-    }
+    } //end if
 
     if (sc >= 80) {
         printf("A !\n") ;
@@ -70,7 +70,7 @@ int main() {
     }
     else {
         printf("F !\n") ;
-    }
+    } //end if-esle
 
     return 0; 
 
